@@ -1,8 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
-    <title><%= "some title" %></title>
+    <title><%= "Website" %></title>
 </head>
 <body>
     <c:if test="true">
@@ -11,5 +12,10 @@
     <c:if test="false">
         <h1>single letter variable names are good</h1>
     </c:if>
+
+
+
+
+
 </body>
 </html>
