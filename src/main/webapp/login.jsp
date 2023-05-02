@@ -14,7 +14,7 @@
         response.sendRedirect("/profile.jsp");
     }
 %>
-
+<p>test</p>
 
 <html>
 <head>
