@@ -11,7 +11,7 @@
     String username = request.getParameter("username");
     String password = request.getParameter("password");
     if (Objects.equals(username, "admin") && (Objects.equals(password, "password"))) {
-        response.sendRedirect("profile.jsp");
+        response.sendRedirect("/profile.jsp");
     }
 %>
 
